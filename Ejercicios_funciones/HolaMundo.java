@@ -1,7 +1,7 @@
 /* Haz un metodo que imprima Hola Mundo */
 package Ejercicios_funciones;
 
-public class Ejercicio_1 {
+public class HolaMundo {
     
     /* Aqui escribimos lo que se va a mostrar por pantalla */
     public static void main (String[]args){

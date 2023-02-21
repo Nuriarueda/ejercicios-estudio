@@ -3,7 +3,7 @@
 package Ejercicios_funciones;
 
 import java.util.Scanner;
-public class Ejercicio_3 {
+public class MayorMenor {
     
 
     /* Aqui escribimos lo que se va a mostrar por pantalla */
