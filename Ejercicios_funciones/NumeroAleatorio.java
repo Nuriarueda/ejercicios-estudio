@@ -3,7 +3,7 @@ enteros que nosotros les demos*/
 
 package Ejercicios_funciones;
 
-public class Ejercicio_5 {
+public class NumeroAleatorio {
     
     public static void main (String[] args){
         

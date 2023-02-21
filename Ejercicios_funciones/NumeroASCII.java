@@ -3,7 +3,7 @@ de un caracter padado por parametro*/
 
 package Ejercicios_funciones;
 
-public class Ejercicio_4 {
+public class NumeroASCII {
     
     public static void main(String[] args) {
 
