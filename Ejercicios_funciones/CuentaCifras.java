@@ -14,10 +14,11 @@ public class CuentaCifras {
 
         if (num==0){
             System.out.println("El numero tienen 0 cifras");
-        } else {
-            int resultado = cuentadigitos(num);
-            System.out.println("Tiene " + resultado + " cifras");
         }
+
+        int resultado = cuentadigitos(num);
+        System.out.println("Tiene " + resultado + " cifras");
+
         sc.close();
     }
 
