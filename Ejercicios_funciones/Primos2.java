@@ -8,14 +8,14 @@ public class Primos2 {
     public static void main (String[] args) {
 
         for (int i = 1; i < 1001; i++){
-            if (numeroprimo(i)) {
+            if (numeroPrimo(i)) {
                 System.out.println(i);
             }
         }
 
     }
 
-    public static boolean numeroprimo (int numero) {
+    public static boolean numeroPrimo (int numero) {
 
         if (numero <= 2){
             return false;
