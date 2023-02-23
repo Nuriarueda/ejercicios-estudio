@@ -1,4 +1,4 @@
-/* Factorial del numero 5 */
+ /* Factorial del numero 5 */
 
 
 package Ejercicios_funciones;
