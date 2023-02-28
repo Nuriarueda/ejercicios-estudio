@@ -29,7 +29,7 @@ public class NumerosCapicuos {
     
     }
     private static long voltea(long numero) {
-        return ;
+        return numero ;
     }
 
     public static boolean esCapicua (int numero){
