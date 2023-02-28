@@ -10,7 +10,7 @@ public class Simbolos {
         simbolo[7] = '+';
         simbolo[8] = 'Q';
         for (int i = 0; i < 10; i++) {
-        System.out.println("simbolo[" + i + "]: " + simbolo[i]);
+            System.out.println("simbolo[" + i + "]: " + simbolo[i]);
         }
     }
 }
