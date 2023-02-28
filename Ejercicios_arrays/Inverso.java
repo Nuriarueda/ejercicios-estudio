@@ -14,8 +14,8 @@ public class Inverso {
                 n[i] = Integer.parseInt(System.console().readLine());
             }
         System.out.println("\nLos números introducidos, al revés, son los siguientes:");
-            for (i = 9; i >= 0; i--) {
-                System.out.println(n[i]);
-            }
+        for (i = 9; i >= 0; i--) {
+            System.out.println(n[i]);
+        }
     }
 }
