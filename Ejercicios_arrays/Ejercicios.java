@@ -1,3 +1,7 @@
+/* Realiza un programa que pida 10 números por teclado y que los almacene en
+un array.  */
+
+
 package Ejercicios_arrays;
 
 public class Ejercicios {
