@@ -27,7 +27,7 @@ public class Ejerccio {
                 }
                 suma += numero;
             }
-            System.out.println("\nMáximo: " + maximo);
+            System.out.println("Máximo: " + maximo);
             System.out.println("Mínimo: " + minimo);
             System.out.println("Media: " + ((double) suma / 10));
         }
