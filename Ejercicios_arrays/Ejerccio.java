@@ -11,7 +11,7 @@ public class Ejerccio {
                 }
                 System.out.println();
             }
-            System.out.print("\nDiagonal desde la esquina inferior izquierda ");
+            System.out.print("Diagonal desde la esquina inferior izquierda ");
             System.out.println("a la esquina superior derecha: ");
             int maximo = 500;
             int minimo = 900;
