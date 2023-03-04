@@ -1,3 +1,5 @@
+/* Media, minimo y maximo de estos paises: España, Rusia, Japón y Australia */
+
 package Ejercicios_arrays;
 
 public class Ejercicio {
