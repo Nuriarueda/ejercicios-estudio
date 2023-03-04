@@ -9,7 +9,7 @@ public class Ejercici {
                 estaturas[i][j] = (int) (Math.random() * (210 - 140 + 1)) + 140;
             }
         }
-        System.out.printf("%64s\n", "MED MIN MAX");
+        System.out.printf("%64s", "MED MIN MAX");
         for (int i = 0; i < 4; i++) {
             int maximo = 140;
             int minimo = 210;
@@ -21,7 +21,7 @@ public class Ejercici {
                 minimo = estatura < minimo ? estatura : minimo;
                 suma += estatura;
             }
-            System.out.printf(" |%4d%4d%4d\n", suma / 10, minimo, maximo);
+            System.out.printf(" |%4d%4d%4d", suma / 10, minimo, maximo);
         }
     }
 }
