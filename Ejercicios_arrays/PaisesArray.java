@@ -6,9 +6,9 @@ public class PaisesArray {
     public static void main(String[] args) {
         String[] pais = {"España", "Rusia", "Japón", "Australia"};
         int[][] estaturas = new int[4][10];
-        for (int i = 0; i < 4; i++) {
+        for (int n = 0; n < 4; n++) {
             for (int j = 0; j < 10; j++) {
-                estaturas[i][j] = (int) (Math.random() * (210 - 140 + 1)) + 140;
+                estaturas[n][j] = (int) (Math.random() * (210 - 140 + 1)) + 140;
             }
         }
         System.out.printf("%64s", "MED MIN MAX");
