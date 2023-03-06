@@ -9,7 +9,7 @@ public class Ejercicio {
             num = Integer.parseInt(System.console().readLine());
         } while (num < 1);
         System.out.print(num + " = ");
-        int aux =  num;
+        int aux =  (int) num;
         int numDig = 0;
         int numReves = 0;
         while (aux > 0){
