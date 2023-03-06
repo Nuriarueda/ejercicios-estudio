@@ -1,3 +1,6 @@
+/*Realiza un conversor del sistema decimal al sistema de “palotes”.*/
+
+
 package Ejercicios_Bucles;
 
 public class Ejercicio {
