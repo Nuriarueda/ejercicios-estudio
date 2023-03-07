@@ -9,8 +9,8 @@ public class Ejercicio {
             if (numIntroducido < 0) {
                 System.out.println("El número introducido no es correcto.");
             }
-        } while (numeroIntroducido < 0);
-        int factorial = numeroIntroducido;
+        } while (numIntroducido < 0);
+        int factorial = numIntroducido;
         if (numeroIntroducido == 0) {
             System.out.println("El factorial del " + numeroIntroducido + " es 1.");
         } else {
