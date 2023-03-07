@@ -1,11 +1,14 @@
 package Ejercicios_Bucles;
 
+
+import java.util.Scanner;
 public class Ejercicio {
     public static void main(String[] args) {
+        Scanner sc =  new Scanner (System.in);
         int numIntroducido;
         do {
             System.out.print("Por favor, introduzca un número entero: ");
-            numIntroducido = Integer.parseInt(System.console().readLine());
+            int numIntroducido = sc.nextInt();
             if (numIntroducido < 0) {
                 System.out.println("El número introducido no es correcto.");
             }
@@ -19,5 +22,6 @@ public class Ejercicio {
             }
             System.out.println(numIntroducido + "! = " + factorial);
         }
+        sc.close();
     }
 }
