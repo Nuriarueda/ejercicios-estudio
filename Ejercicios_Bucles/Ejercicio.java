@@ -1,5 +1,8 @@
-package Ejercicios_Bucles;
+/* Escribe un programa que calcule el factorial de un número entero leído por
+teclado. */
 
+
+package Ejercicios_Bucles;
 
 import java.util.Scanner;
 public class Ejercicio {
