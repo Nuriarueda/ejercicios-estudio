@@ -14,10 +14,10 @@ public class Ejercicio {
         if (numIntroducido == 0) {
             System.out.println("El factorial del " + numIntroducido + " es 1.");
         } else {
-            for (int i = 1; i < numeroIntroducido; i++) {
+            for (int i = 1; i < numIntroducido; i++) {
                 factorial *= i;
             }
-            System.out.println(numeroIntroducido + "! = " + factorial);
+            System.out.println(numIntroducido + "! = " + factorial);
         }
     }
 }
