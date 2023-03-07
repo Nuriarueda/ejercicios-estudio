@@ -2,7 +2,7 @@ package Ejercicios_Bucles;
 
 public class Ejercicio {
     public static void main(String[] args) {
-        int numeroIntroducido;
+        int numIntroducido;
         do {
             System.out.print("Por favor, introduzca un número entero: ");
             numeroIntroducido = Integer.parseInt(System.console().readLine());
