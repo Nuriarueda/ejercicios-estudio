@@ -5,8 +5,8 @@ public class Ejercicio {
         int numIntroducido;
         do {
             System.out.print("Por favor, introduzca un número entero: ");
-            numeroIntroducido = Integer.parseInt(System.console().readLine());
-            if (numeroIntroducido < 0) {
+            numIntroducido = Integer.parseInt(System.console().readLine());
+            if (numIntroducido < 0) {
                 System.out.println("El número introducido no es correcto.");
             }
         } while (numeroIntroducido < 0);
