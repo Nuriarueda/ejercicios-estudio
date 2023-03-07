@@ -11,8 +11,8 @@ public class Ejercicio {
             }
         } while (numIntroducido < 0);
         int factorial = numIntroducido;
-        if (numeroIntroducido == 0) {
-            System.out.println("El factorial del " + numeroIntroducido + " es 1.");
+        if (numIntroducido == 0) {
+            System.out.println("El factorial del " + numIntroducido + " es 1.");
         } else {
             for (int i = 1; i < numeroIntroducido; i++) {
                 factorial *= i;
