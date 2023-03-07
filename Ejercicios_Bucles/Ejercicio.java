@@ -8,7 +8,7 @@ public class Ejercicio {
         int numIntroducido;
         do {
             System.out.print("Por favor, introduzca un número entero: ");
-            int numIntroducido = sc.nextInt();
+            numIntroducido = sc.nextInt();
             if (numIntroducido < 0) {
                 System.out.println("El número introducido no es correcto.");
             }
