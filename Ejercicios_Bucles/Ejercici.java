@@ -6,11 +6,12 @@ public class Ejercici {
     public static void main (String[] args){
         Scanner sc = new Scanner    (System.in);
 
+        System.out.println("Escribe 10 numeros enteros, tanto positivos como negativos: ");
         int negativos = 0;
         int positivos = 0;
 
         for (int i=0; i<10; i++){
-            if ( (int num = sc.nextInt())>0 ){
+            if ( (sc.nextInt())>0 ){
                 negativos ++;
             } else {
                 positivos ++;
