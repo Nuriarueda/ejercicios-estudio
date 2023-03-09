@@ -12,9 +12,9 @@ public class Ejercici {
 
         for (int i=0; i<10; i++){
             if ( (sc.nextInt())>0 ){
-                negativos ++;
-            } else {
                 positivos ++;
+            } else {
+                negativos ++;
             }
         }
 
