@@ -1,4 +1,8 @@
+/*  Muestra la tabla de multiplicar de un número introducido por teclado. */
+
 package Ejercicios_Bucles;
+
+
 
 public class Ejerci {
     public static void main(String[] args) {
