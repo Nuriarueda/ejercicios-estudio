@@ -2,8 +2,8 @@
 
 package Ejercicios_Bucles;
 
-public class E {
-    public static void main (System []args) {
+public class Primos{
+    public static void main (String []args) {
         System.out.print("Números primos entre 2 y 100: ");
             boolean esPrimo = true;
             for (int n = 2; n <= 100; n++) {
