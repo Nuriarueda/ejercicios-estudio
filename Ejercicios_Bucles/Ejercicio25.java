@@ -1,4 +1,4 @@
-
+/* Pide un numero y cuenta hasta el numero pedido por consola */
 
 package Ejercicios_Bucles;
 
@@ -8,6 +8,12 @@ public class Ejercicio25 {
     public static void main (String[] args){
         Scanner sc = new Scanner (System.in);
 
+        System.out.print("Escribe un numero: ");
+        int numero = sc.nextInt();
+
+        for (int i=1; i<=numero; i++){
+            System.out.print(i + " ");
+        }
 
 
         sc.close();
