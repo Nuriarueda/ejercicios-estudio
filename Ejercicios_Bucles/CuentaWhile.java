@@ -1,6 +1,5 @@
 /* Pide un numero y cuenta hasta el numero pedido por consola con un bucle WHILE */
 
-
 package Ejercicios_Bucles;
 
 import java.util.Scanner;
