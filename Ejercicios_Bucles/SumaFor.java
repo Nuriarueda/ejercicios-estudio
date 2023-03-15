@@ -10,8 +10,9 @@ public class SumaFor {
         System.out.print("Numero que quieras sumar: ");
         int num = sc.nextInt();
 
-        for (int i=1; i<=10;i++){
-            System.out.println(num + " + " + i + " = "); 
+        for (int i=0; i<=10;i++){
+            int suma = num+i;
+            System.out.println(num + " + " + i + " = " + suma); 
         }
         sc.close();
     }
