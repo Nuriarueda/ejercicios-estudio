@@ -3,6 +3,35 @@ asignatura toca a primera hora ese día. */
 
 package Ejercicios_Condicionales;
 
+import java.util.Scanner;
 public class SwitchBasico {
     
+    public static void main(String [] args) {
+        Scanner sc = new Scanner (System.in);
+        System.out.print("Escribe un dia de la semana: ");
+        String dia = sc.nextLine();
+
+        switch (dia) {
+            case "lunes": 
+                System.out.println("Ese dia toca: lengua");
+                break;
+            case "martes": 
+                System.out.println("Ese dia toca: mates");
+                break;
+                case "miercoles": 
+                System.out.println("Ese dia toca: filosofia");
+                break;
+                case "jueves": 
+                System.out.println("Ese dia toca: historia");
+                break;
+                case "viernes": 
+                System.out.println("Ese dia toca: fisica");
+                break;
+            default:
+                System.out.println("Ese dia no hay clase");
+
+        }
+
+        sc.close();
+    }
 }
