@@ -1,7 +1,7 @@
 /* Arrays bidimensionales: Escribe un programa que, dada una posición en un tablero de ajedrez,
 nos diga a qué casillas podría saltar un alfil que se encuentra en esa posición. */
 
-package Ejercicios_arrays;
+package Ejercicios_Arrays;
 
 public class PosicionAfil {
     public static void main(String[] args) {
