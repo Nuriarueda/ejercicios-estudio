@@ -9,6 +9,15 @@ public class Ejercicio1 {
         Scanner sc = new Scanner (System.in);
 
         System.out.print("Escribe un numero entero:");
+        int numero = sc.nextInt();
+        int i = 1;
+
+        do{
+            System.out.print(i + " ");
+            i++;
+            
+        }while (i<=numero);
+
 
 
         sc.close();
