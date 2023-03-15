@@ -7,7 +7,7 @@ public class MultiplicaFor {
     
     public static void main (String[] args){
         Scanner sc = new Scanner (System.in);
-        System.out.print("Numero que quieras sumar: ");
+        System.out.print("Numero que quieras multiplicar: ");
         int num = sc.nextInt();
 
         for (int i=0; i<=10;i++){
