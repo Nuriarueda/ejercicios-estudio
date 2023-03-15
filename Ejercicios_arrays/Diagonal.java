@@ -1,4 +1,4 @@
-package Ejercicios_Arrays;
+package Ejercicios_arrays;
 
 public class Diagonal {
     
