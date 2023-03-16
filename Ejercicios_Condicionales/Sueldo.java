@@ -6,7 +6,7 @@ la hora. */
 package Ejercicios_Condicionales;
 
 import java.util.Scanner;
-public class Ejercicio {
+public class Sueldo {
     public static void main(String[]args){
         Scanner sc = new Scanner (System.in);
 
