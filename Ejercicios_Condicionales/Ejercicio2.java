@@ -19,9 +19,7 @@ public class Ejercicio2 {
             System.out.println("Buenas tardes");
         } else {
             System.out.println("Buenas noches");
-        }
-
-        
+        } 
 
         sc.close();
     }
