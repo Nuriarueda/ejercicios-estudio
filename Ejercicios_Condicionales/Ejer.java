@@ -8,9 +8,9 @@ public class Ejer {
         System.out.println("Hola bienvenido a la pasteleria");
         System.out.print("¿De qué sabor quieres el pastel?: ");
 
-        String chococlate = sc.nextLine();
-        String vainilla = sc.nextLine();
+        String sabores = sc.nextLine();
 
+        switch 
         sc.close();
     }
 }

@@ -28,7 +28,7 @@ public class SwitchBasico {
                 System.out.println("Ese dia toca: Historia");
             break;
             default:
-                System.out.println("Ese dia no hay clase");
+            System.out.println("Ese dia no hay clase");
 
         }
 
