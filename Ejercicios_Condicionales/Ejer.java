@@ -24,12 +24,14 @@ public class Ejer {
                 System.out.println("Le costará " + vainilla + " euros");
             break;
             case "Fresa":
-                System.out.println("Le costará 18 euros");
                 int fresa = 15;
+                System.out.println("Le costará" + fresa + " euros");
             break;
         }
 
-        System.out.print("Desea añadir ");
+        System.out.print("¿Desea añadir algun toping extra?: ");
+        String respuesta = sc.nextLine();
+        
         sc.close();
     }
 }
