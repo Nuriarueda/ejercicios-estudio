@@ -60,20 +60,23 @@ public class Ejer {
                 }        
 
             break;
-            case "Fresa":
+
+
+            case "Fresa": // SABOR FRESA 
                 int fresa = 15;
                 System.out.println("Le costará" + fresa + " euros");
+
+                System.out.print("¿Desea añadir algun toping extra?: ");
+                String respuesta4 = sc.nextLine();
+                
+                if (respuesta4.equals ("si")){
+                    System.out.println("Okey, se le añadira 10 euros al precio de tu pastel");
+                    System.out.println("El precio final sera: " + (fresa+10) + " euros");
+                } else {
+                    System.out.println("De acuerdo ");
+                }        
+
             break;
-        }
-
-        System.out.print("¿Desea añadir algun toping extra?: ");
-        String respuesta = sc.nextLine();
-
-        if (respuesta.equals ("si")){
-            System.out.println("Okey, se le añadira 10 euros al precio de tu pastel");
-
-        } else {
-            System.out.println("De acuerdo ");
         }
         sc.close();
     }
