@@ -13,7 +13,7 @@ public class SwitchBasico {
 
         switch (dia) {
             case "lunes": 
-                System.out.println("Ese dia toca: quimica");
+                System.out.println("Ese dia toca: Quimica");
                 break;
             case "martes": 
                 System.out.println("Ese dia toca: lengua");
