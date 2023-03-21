@@ -25,7 +25,7 @@ public class SwitchBasico {
                 System.out.println("Ese dia toca: Filosofía");
                 break;
                 case "viernes": 
-                System.out.println("Ese dia toca: historia");
+                System.out.println("Ese dia toca: Historia");
                 break;
             default:
                 System.out.println("Ese dia no hay clase");
