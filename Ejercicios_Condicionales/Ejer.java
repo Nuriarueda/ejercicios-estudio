@@ -7,10 +7,10 @@ public class Ejer {
         Scanner sc = new Scanner (System.in);
         System.out.println("Hola bienvenido a la pasteleria");
         System.out.print("¿De qué sabor quieres el pastel?: ");
+
         String chococlate = sc.nextLine();
         String vainilla = sc.nextLine();
 
-        if ( )
         sc.close();
     }
 }
