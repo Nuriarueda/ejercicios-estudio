@@ -22,7 +22,7 @@ public class SwitchBasico {
                 System.out.println("Ese dia toca: Matemáticas");
                 break;
                 case "jueves": 
-                System.out.println("Ese dia toca: filosofia");
+                System.out.println("Ese dia toca: Filosofía");
                 break;
                 case "viernes": 
                 System.out.println("Ese dia toca: historia");
