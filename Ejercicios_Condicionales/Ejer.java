@@ -14,6 +14,7 @@ public class Ejer {
             case "Chocolate": // SABOR CHOCOLATE
                 int chocolate = 15;
                 System.out.println("Le costará " + chocolate + " euros");
+
                 System.out.print("¿Desea añadir algun toping extra?: ");
                 String respuesta1 = sc.nextLine();
 
@@ -27,12 +28,13 @@ public class Ejer {
             break;
 
 
-            case "Limon":
+            case "Limon": // SABOR LIMÓN
             int limon = 13;
                 System.out.println("Le costará " + limon + " euros");
+
                 System.out.print("¿Desea añadir algun toping extra?: ");
                 String respuesta2 = sc.nextLine();
-
+                
                 if (respuesta2.equals ("si")){
                     System.out.println("Okey, se le añadira 10 euros al precio de tu pastel");
                     System.out.println("El precio final sera: " + (limon+10) + " euros");
@@ -43,7 +45,7 @@ public class Ejer {
             break;
 
 
-            case "Vainilla":
+            case "Vainilla": // SABOR VAINILLA
                 int vainilla = 16;
                 System.out.println("Le costará " + vainilla + " euros");
             break;
