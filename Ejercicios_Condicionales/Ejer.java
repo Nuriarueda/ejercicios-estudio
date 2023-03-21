@@ -13,19 +13,19 @@ public class Ejer {
         switch (sabores){
             case "Chocolate":
                 int chocolate = 15;
-                System.out.println("Le costará 15 euros");
+                System.out.println("Le costará " + chocolate + " euros");
             break;
             case "Limon":
-                System.out.println("Le costará 13 euros");
-                int limon = 13;
+            int limon = 13;
+                System.out.println("Le costará " + limon + " euros");
             break;
             case "Vainilla":
-                System.out.println("Le costará 16 euros");
                 int vainilla = 16;
+                System.out.println("Le costará " + vainilla + " euros");
             break;
             case "Fresa":
                 System.out.println("Le costará 18 euros");
-                int chocolate = 15;
+                int fresa = 15;
             break;
         }
 
