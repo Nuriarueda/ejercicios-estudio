@@ -51,7 +51,7 @@ public class Ejercicio19 {
 
 
         // PREGUNTA 5
-        System.out.print("5. No te deja que mires la agenda de su teléfono móvil.");
+        System.out.print("5. No te deja que mires la agenda de su teléfono móvil: ");
 
         if (respuesta.equals("verdadero")){
             puntos += 3;
