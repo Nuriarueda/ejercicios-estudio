@@ -75,7 +75,7 @@ public class Ejercicio19 {
 
 
         // PREGUNTA 8
-        System.out.print("8. Muchos días viene tarde después de trabajar porque dice tener mucho más trabajo.");
+        System.out.print("8. Muchos días viene tarde después de trabajar porque dice tener mucho más trabajo: ");
 
         if (respuesta.equals("verdadero")){
             puntos += 3;
