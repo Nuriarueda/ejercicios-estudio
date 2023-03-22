@@ -67,7 +67,7 @@ public class Ejercicio19 {
 
 
         // PREGUNTA 7
-        System.out.print("1. Tu pareja parece estar más inquieta de lo normal sin ningún motivo aparente.");
+        System.out.print("7. Últimamente se preocupa más en cuidar la línea y/o estar bronceado/a. ");
 
         if (respuesta.equals("verdadero")){
             puntos += 3;
