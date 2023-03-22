@@ -6,7 +6,7 @@ puntos. Las preguntas contestadas con falso no suman puntos.  */
 package Ejercicios_Condicionales;
 
 import java.util.Scanner;
-public class Ejercicio19 {
+public class TestFidelidad {
     public static void main (String [] args){
         Scanner sc = new Scanner (System.in);
 
