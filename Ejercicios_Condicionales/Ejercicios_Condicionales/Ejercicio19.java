@@ -59,7 +59,7 @@ public class Ejercicio19 {
 
 
         // PREGUNTA 6
-        System.out.print("1. Tu pareja parece estar más inquieta de lo normal sin ningún motivo aparente.");
+        System.out.print("6. A veces tiene llamadas que dice no querer contestar cuando estás tú delante");
 
         if (respuesta.equals("verdadero")){
             puntos += 3;
