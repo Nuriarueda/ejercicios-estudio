@@ -27,7 +27,7 @@ public class Ejercicio19 {
 
 
         //PREGUNTA 2
-        System.out.print("2. Ha aumentado sus gastos de vestuario");
+        System.out.print("2. Ha aumentado sus gastos de vestuario: ");
 
         if (respuesta.equals("verdadero")){
             puntos += 3;
