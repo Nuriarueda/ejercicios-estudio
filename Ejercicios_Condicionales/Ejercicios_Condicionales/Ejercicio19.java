@@ -51,7 +51,7 @@ public class Ejercicio19 {
 
 
         // PREGUNTA 5
-        System.out.print("1. Tu pareja parece estar más inquieta de lo normal sin ningún motivo aparente.");
+        System.out.print("5. No te deja que mires la agenda de su teléfono móvil.");
 
         if (respuesta.equals("verdadero")){
             puntos += 3;
