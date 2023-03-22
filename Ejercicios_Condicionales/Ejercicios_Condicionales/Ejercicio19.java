@@ -18,7 +18,7 @@ public class Ejercicio19 {
         int puntos = 0;
 
         // PREGUNTA 1
-        System.out.print("1. Tu pareja parece estar más inquieta de lo normal sin ningún motivo aparente.");
+        System.out.print("1. Tu pareja parece estar más inquieta de lo normal sin ningún motivo aparente: ");
         String respuesta = sc.nextLine();
 
         if (respuesta.equals("verdadero")){
