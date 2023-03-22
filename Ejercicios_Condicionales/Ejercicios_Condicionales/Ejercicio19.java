@@ -43,7 +43,7 @@ public class Ejercicio19 {
 
 
         // PREGUNTA 4
-        System.out.print("4. Ahora se afeita y se asea con más frecuencia (si es hombre) o ahora se arregla el pelo y se asea con más frecuencia (si es mujer)");
+        System.out.print("4. Ahora se afeita y se asea con más frecuencia (si es hombre) o ahora se arregla el pelo y se asea con más frecuencia (si es mujer): ");
 
         if (respuesta.equals("verdadero")){
             puntos += 3;
