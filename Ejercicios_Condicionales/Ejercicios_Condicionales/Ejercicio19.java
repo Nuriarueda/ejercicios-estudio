@@ -67,7 +67,7 @@ public class Ejercicio19 {
 
 
         // PREGUNTA 7
-        System.out.print("7. Últimamente se preocupa más en cuidar la línea y/o estar bronceado/a. ");
+        System.out.print("7. Últimamente se preocupa más en cuidar la línea y/o estar bronceado/a: ");
 
         if (respuesta.equals("verdadero")){
             puntos += 3;
