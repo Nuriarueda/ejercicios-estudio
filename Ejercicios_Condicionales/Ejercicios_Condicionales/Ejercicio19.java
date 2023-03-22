@@ -35,7 +35,7 @@ public class Ejercicio19 {
 
 
         // PREGUNTA 3
-        System.out.print("3. Ha perdido el interés que mostraba anteriormente por ti");
+        System.out.print("3. Ha perdido el interés que mostraba anteriormente por ti: ");
 
         if (respuesta.equals("verdadero")){
             puntos += 3;
