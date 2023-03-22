@@ -15,6 +15,7 @@ public class TestFidelidad {
         System.out.println("Ahora te haremos unas preguntas, tienes que responder verdadero o falso.");
         System.out.println("Si es verdadero se sumará 3 puntos, si es falso no se sumara nada.");
         System.out.println("Las preguntas son las siguientes: ");
+        System.out.println();
 
         int puntos = 0;
 
