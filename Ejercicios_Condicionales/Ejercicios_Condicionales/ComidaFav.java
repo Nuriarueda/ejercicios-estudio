@@ -10,7 +10,7 @@ public class ComidaFav {
 
         String comida = sc.nextLine();
 
-        if (comida.equals("Tortilla")){
+        if (comida.equals("CEBOLLA")){
             System.out.println("Error");
             
         } else {
