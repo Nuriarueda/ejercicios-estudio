@@ -1,7 +1,7 @@
 package Ejercicios_Condicionales;
 
 import java.util.Scanner;
-public class Ejercicio3 {
+public class ComidaFav {
     
     public static void main (String [] args){
         Scanner sc = new Scanner (System.in);
