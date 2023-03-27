@@ -13,7 +13,7 @@ public class ComidaFav {
         if (comida.equals("Pizza")){
             System.out.println("Error");
             
-        } else if (comida.equals("Hamburguesa")){
+        } else {
             System.out.println("Enhorabuena has acertado!!");
         }
         sc.close();
