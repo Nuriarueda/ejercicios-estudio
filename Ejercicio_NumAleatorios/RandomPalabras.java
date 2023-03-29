@@ -9,7 +9,9 @@ public class RandomPalabras {
         int palabra = (int)(Math.random()*3); // 0-2
 
         switch (palabra){
-            
+            case 0:
+                System.out.println("Hola");
+                break;
         }
     }
 }
