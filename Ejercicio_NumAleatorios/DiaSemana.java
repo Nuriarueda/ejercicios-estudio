@@ -14,6 +14,26 @@ public class DiaSemana {
             case 1:
                 System.out.println("Lunes");
                 break;
+            case 2:
+                System.out.println("Martes");
+                break;
+            case 3:
+                System.out.println("Lunes");
+                break;
+            case 4:
+                System.out.println("Lunes");
+                break;
+            case 5:
+                System.out.println("Lunes");
+                break;
+            case 6:
+                System.out.println("Lunes");
+                break;
+            case 7:
+                System.out.println("Lunes");
+                break;
+            default:
+
         }
     }
 }
