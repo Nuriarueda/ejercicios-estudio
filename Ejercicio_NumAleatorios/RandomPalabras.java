@@ -12,6 +12,11 @@ public class RandomPalabras {
             case 0:
                 System.out.println("Hola");
                 break;
+            case 1:
+                System.out.println("Adios");
+                break;
+            case 2: 
+                
         }
     }
 }
