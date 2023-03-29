@@ -4,7 +4,7 @@ y enhorabuena si has acertado */
 package Ejercicios_Condicionales;
 
 import java.util.Scanner;
-public class AIfBasico {
+public class A)IfBasico {
      
     public static void main (String [] args){
         Scanner sc = new Scanner (System.in);
