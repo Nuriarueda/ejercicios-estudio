@@ -8,7 +8,7 @@ public class RandomBasico4 {
         System.out.println("20 numero random del 1-10:");
 
         for (int i=1; i<=20; i++){
-            System.out.print((int)(Math.random()* 9 + 1) + " ");
+            System.out.print((int)(Math.random()* 10 + 1) + " "); // Cuando añadimos el (+1) estamos sumando 9 + 1 = 10
         }
     }
 }
