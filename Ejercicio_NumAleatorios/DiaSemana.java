@@ -30,7 +30,7 @@ public class DiaSemana {
                 System.out.println("Sábado");
                 break;
             case 7:
-                System.out.println("Lunes");
+                System.out.println("Domingo");
                 break;
             default:
 
