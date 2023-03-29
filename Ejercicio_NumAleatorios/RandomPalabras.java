@@ -16,7 +16,9 @@ public class RandomPalabras {
                 System.out.println("Adios");
                 break;
             case 2: 
-                
+                System.out.println("Hasta luego");
+                break;
+            default:
         }
     }
 }
