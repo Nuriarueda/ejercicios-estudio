@@ -1,4 +1,4 @@
-// Ahora vamos a generar numeros random que sean del 1 al 10 contando el 10
+// Ahora vamos a generar numeros random que sean del 1 al 10 contando el 10 sin decimales
 
 
 package Ejercicio_NumAleatorios;

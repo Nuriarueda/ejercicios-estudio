@@ -1,3 +1,5 @@
+// Palabras random
+
 package Ejercicio_NumAleatorios;
 
 public class RandomPalabras {
