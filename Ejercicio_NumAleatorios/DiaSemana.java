@@ -1,3 +1,5 @@
+// Mostrar un dia de la semana
+
 package Ejercicio_NumAleatorios;
 
 

@@ -1,3 +1,5 @@
+// Numeros aleatorios del 0 - 0.99
+
 package Ejercicio_NumAleatorios;
 
 public class RandomBasico {
