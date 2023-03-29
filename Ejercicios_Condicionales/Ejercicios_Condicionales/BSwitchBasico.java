@@ -4,7 +4,7 @@ asignatura toca a primera hora ese día. */
 package Ejercicios_Condicionales;
 
 import java.util.Scanner;
-public class SwitchBasico {
+public class BSwitchBasico {
     
     public static void main(String [] args) {
         Scanner sc = new Scanner (System.in);
