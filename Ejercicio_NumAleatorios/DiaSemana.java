@@ -21,7 +21,7 @@ public class DiaSemana {
                 System.out.println("Miercoles");
                 break;
             case 4:
-                System.out.println("Lunes");
+                System.out.println("Jueves");
                 break;
             case 5:
                 System.out.println("Lunes");
