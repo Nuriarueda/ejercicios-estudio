@@ -1,3 +1,5 @@
+// 20 numeros random del 0 - 9 pero sin decimales
+
 package Ejercicio_NumAleatorios;
 
 public class RandomBasico3 {

@@ -1,6 +1,8 @@
+// Ahora vamos a generar numeros random que sean del 1 al 10 contando el 10
+
+
 package Ejercicio_NumAleatorios;
 
-// Ahora vamos a generar numeros random que sean del 1 al 10 contando el 10
 public class RandomBasico4 {
     
     public static void main (String[] args){
