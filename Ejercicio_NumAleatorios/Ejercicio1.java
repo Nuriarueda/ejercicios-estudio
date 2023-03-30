@@ -17,7 +17,7 @@ public class Ejercicio1 {
                 palo = "diamantes";
                 break;
             case 4:
-            palo = "tréboles";
+                palo = "tréboles";
             default:
         }
 
