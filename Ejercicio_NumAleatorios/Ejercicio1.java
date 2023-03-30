@@ -20,6 +20,7 @@ public class Ejercicio1 {
         palo = "tréboles";
         default:
         }
+        
         int numeroCarta = (int)(Math.random()*13) + 1;
         switch(numeroCarta) {
             case 1:
