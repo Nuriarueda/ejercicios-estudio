@@ -7,7 +7,7 @@ public class Ejercicio1 {
         String palo = "";
         String carta = "";
         int numeroPalo = (int)(Math.random()*4) + 1;
-        
+
         switch(numeroPalo) {
             case 1:
                 palo = "picas";
@@ -40,6 +40,7 @@ public class Ejercicio1 {
             default:
                 carta = String.valueOf(numeroCarta);
         }
+        
         System.out.println(carta + " de " + palo);
     }
 }
