@@ -11,8 +11,8 @@ public class Ejercicio1 {
                 palo = "picas";
                 break;
             case 2:
-            palo = "corazones";
-            break;
+                palo = "corazones";
+                break;
             case 3:
             palo = "diamantes";
             break;
