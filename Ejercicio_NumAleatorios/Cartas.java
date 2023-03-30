@@ -1,6 +1,6 @@
 package Ejercicio_NumAleatorios;
 
-public class Ejercicio1 {
+public class Cartas {
     
     public static void main(String[] args) {
 
