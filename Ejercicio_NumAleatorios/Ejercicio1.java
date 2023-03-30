@@ -3,9 +3,11 @@ package Ejercicio_NumAleatorios;
 public class Ejercicio1 {
     
     public static void main(String[] args) {
+
         String palo = "";
         String carta = "";
         int numeroPalo = (int)(Math.random()*4) + 1;
+        
         switch(numeroPalo) {
             case 1:
                 palo = "picas";
