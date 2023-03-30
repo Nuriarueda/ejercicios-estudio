@@ -35,7 +35,7 @@ public class Ejercicio1 {
                 carta = "K";
                 break;
             default:
-            carta = String.valueOf(numeroCarta);
+                carta = String.valueOf(numeroCarta);
         }
         System.out.println(carta + " de " + palo);
     }
