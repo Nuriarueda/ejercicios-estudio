@@ -8,8 +8,8 @@ public class Ejercicio1 {
         int numeroPalo = (int)(Math.random()*4) + 1;
         switch(numeroPalo) {
             case 1:
-            palo = "picas";
-            break;
+                palo = "picas";
+                break;
             case 2:
             palo = "corazones";
             break;
