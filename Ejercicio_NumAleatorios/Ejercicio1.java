@@ -32,8 +32,8 @@ public class Ejercicio1 {
                 carta = "Q";
                 break;
             case 13:
-            carta = "K";
-            break;
+                carta = "K";
+                break;
             default:
             carta = String.valueOf(numeroCarta);
         }
