@@ -1,7 +1,7 @@
 /* Crea una funcion que devuelva un numero aleatorio entre dos numeros 
 enteros que nosotros les demos*/
 
-package Ejercicios_funciones;
+package Examenes;
 
 public class NumeroAleatorio {
     
