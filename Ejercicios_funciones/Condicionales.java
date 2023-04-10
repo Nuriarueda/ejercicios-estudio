@@ -1,4 +1,4 @@
-package Examenes;
+package Ejercicios_funciones;
 import java.util.Scanner;
 
 public class Condicionales extends Object {
