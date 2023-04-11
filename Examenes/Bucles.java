@@ -9,6 +9,13 @@ public class Bucles {
 
         System.out.print("Escribe la anchura de la carta: ");
 
+        int anchuracarta = sc.nextInt();
+
+        for (int i = 0; i<=anchuracarta; i++){
+            System.out.print("* ");
+        }
+        
+
 
         sc.close();
     }
