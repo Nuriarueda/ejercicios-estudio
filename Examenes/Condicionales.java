@@ -107,6 +107,7 @@ public class Condicionales extends Object {
             System.out.print("Cantidad: ");
             int cantidad = Integer.parseInt(sc.nextLine());
             System.out.print("Precio por unidad: ");
+            double precio = Double.parseDouble(sc.nextLine());
             imprimirTicket(opcion, iva, dto, nombre, cantidad, null);
             System.out.println("Gracias por utilizar la app");
         } catch (Exception e){
