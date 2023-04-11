@@ -25,13 +25,6 @@ public class Bucles {
         for (int i = 0; i<anchuracarta; i++){
             System.out.print("* ");
         }
-
-
-
-
-
-
-
         sc.close();
     }
 }
