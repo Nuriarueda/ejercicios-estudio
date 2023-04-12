@@ -10,7 +10,7 @@ public class Invertir {
             int siguiente = principio + 1;
             
             System.out.println(" ");
-            
+
             System.out.print(principio + " ");
 
             for (int k = 1; k <= 4; k++ ){
