@@ -8,8 +8,9 @@ public class TrianguloNumeros {
 
         System.out.print("Introduce el numero hasta donde quieras pintar la piramide: ");
         int num = sc.nextInt();
+        String espacios = "";
         for (int i = 1; i<=num; i++){
-            System.out.print(i);
+            System.out.print(espacios);
         }
 
         sc.close();
