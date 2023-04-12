@@ -15,7 +15,7 @@ public class Invertir {
             }
             num++;
     
-            System.out.println(j);
+            System.out.println();
         }
 
     }
