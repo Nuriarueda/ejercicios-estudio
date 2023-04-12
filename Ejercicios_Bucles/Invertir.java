@@ -10,8 +10,8 @@ public class Invertir {
                 System.out.print(i + " ");
             }
     
-            for (int i=num; i>0; i--){
-                System.out.print(i + " ");
+            for (int k=1; k<num; k++){
+                System.out.print(k + " ");
             }
             num++;
     
