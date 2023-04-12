@@ -1,6 +1,6 @@
 package Ejercicios_Bucles;
 
-public class ExplicacionSecuencia {
+public class SecuenciaExplicacion {
     
     public static void main(String[] args) {
 
