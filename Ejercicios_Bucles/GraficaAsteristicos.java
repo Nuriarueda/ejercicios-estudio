@@ -12,7 +12,12 @@ public class GraficaAsteristicos {
         }
 
         public static int digitos (long valor){
-            int 
+            int dig = 0;
+            while(valor!=0){
+                valor = valor / 10;
+                dig ++;
+            }
+            return dig;
         }
 }
 
