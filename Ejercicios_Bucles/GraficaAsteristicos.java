@@ -28,10 +28,27 @@ public class GraficaAsteristicos {
             return dig;
         }
 
+        public static int maximo (long valor){
+            int max = 0;
+            int longitud = digitos(valor);
+            for (int i = longitud - 1; i>=0; i--){
+                int v = (int) (valor / (long)Math.pow(10, i));
+                valor =(valor %  (long)Math.pow(10, i));
+                if (v < max){
+                    max = v;
+                }
+            }
+            return max;
+
+        }
+
         public static void main (String[] args){
             inicializar();
+
             long numero = solicitarNumero();
-            System.out.print("Digitos de la cadena " + digitos(numero));
+            System.out.println("Digitos de la cadena " + digitos(numero));
+            System.out.print("Maximos de la cadena " + maximo(numero));
+
             finalizar();
         }
 }
