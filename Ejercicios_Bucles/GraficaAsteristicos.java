@@ -29,24 +29,41 @@ public class GraficaAsteristicos {
         }
 
         public static int maximo (long valor){
-            int max = 0;
             int longitud = digitos(valor);
-            for (int i = longitud - 1; i>=0; i--){
-                int v = (int) (valor / (long)Math.pow(10, i));
-                valor =(valor %  (long)Math.pow(10, i));
-                if (v < max){
-                    max = v;
-                }
+            int max = 0;
+            for (int columna = 1; columna <=longitud; columna++){
+               int v = digito (columna, valor);
+               if (v>max)
+                  max = v;
             }
-            return max;
+                        return max;
 
+        }
+
+        public static int digito(int pos, long valor){
+            int v = 0;
+            int longitud = digitos(valor);
+            for (int i = longitud - 1; i>=longitud- pos; i--){
+                v = (int)(valor / (long)Math.pow(10, i));
+                valor = (valor % (long)Math.pow(10, i));
+            }
+
+            return v;
         }
 
         public static void grafica (long valor){
             int longitud = digitos(valor);
             int maximo = maximo(valor);
-            for (int fila = 1; fila<=maximo; fila++){
-                System.out.println("Fila " + fila);
+            System.out.println(valor);
+            for (int fila = 1; fila>=maximo; fila++){
+                for (int columna = 1; columna <= longitud; columna ++){
+                    int v=digito(columna, valor);
+                    if (v<=fila)
+                    System.out.print("*");
+                    else 
+                    System.out.print("");
+                }
+                System.out.println("");
             }
         }
 
