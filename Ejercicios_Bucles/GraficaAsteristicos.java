@@ -56,12 +56,13 @@ public class GraficaAsteristicos {
             int maximo = maximo(valor);
             System.out.println(valor);
             for (int fila = 1; fila<=maximo; fila++){
+                System.out.print("|");
                 for (int columna = 1; columna <= longitud; columna ++){
                     int v=digito(columna, valor);
                     if (v>=fila)
-                    System.out.print("*");
+                    System.out.print(" * |");
                     else 
-                    System.out.print(" ");
+                    System.out.print("   |");
                 }
                 System.out.println("");
             }
