@@ -54,7 +54,19 @@ public class GraficaAsteristicos {
         public static void grafica (long valor){
             int longitud = digitos(valor);
             int maximo = maximo(valor);
-            System.out.println(valor);
+            for (int i = 1; i<=longitud; i++){
+                System.out.print("----");
+            }
+            System.out.println("-");
+            System.out.print("|");
+            for (int i = 1; i<=longitud; i++){
+                System.out.print(" " + digito(i, valor) + " |" );
+            }
+            System.out.println();
+            for (int i = 1; i<=longitud; i++){
+                System.out.print("----");
+            }
+            System.out.println("-");
             for (int fila = 1; fila<=maximo; fila++){
                 System.out.print("|");
                 for (int columna = 1; columna <= longitud; columna ++){
@@ -66,6 +78,10 @@ public class GraficaAsteristicos {
                 }
                 System.out.println("");
             }
+            for (int i = 1; i<=longitud; i++){
+                System.out.print("----");
+            }
+            System.out.print("-");
         }
 
         public static void main (String[] args){
