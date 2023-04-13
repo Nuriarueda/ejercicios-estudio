@@ -10,5 +10,9 @@ public class GraficaAsteristicos {
             valor = Long.parseLong(sc.nextLine());
             return valor;
         }
+
+        public static int digitos (long valor){
+            int 
+        }
 }
 
