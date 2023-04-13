@@ -55,10 +55,10 @@ public class GraficaAsteristicos {
             int longitud = digitos(valor);
             int maximo = maximo(valor);
             System.out.println(valor);
-            for (int fila = 1; fila>=maximo; fila++){
+            for (int fila = 1; fila<=maximo; fila++){
                 for (int columna = 1; columna <= longitud; columna ++){
                     int v=digito(columna, valor);
-                    if (v<=fila)
+                    if (v>=fila)
                     System.out.print("*");
                     else 
                     System.out.print("");
