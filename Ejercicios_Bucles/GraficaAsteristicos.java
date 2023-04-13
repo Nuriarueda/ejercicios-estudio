@@ -31,7 +31,7 @@ public class GraficaAsteristicos {
         public static int maximo (long valor){
             int longitud = digitos(valor);
             int max = 0;
-            for (int columna = 1; columna <=longitud; columna++){
+            for (int columna = 1; columna <= longitud; columna++){
                int v = digito (columna, valor);
                if (v>max)
                   max = v;
@@ -44,8 +44,8 @@ public class GraficaAsteristicos {
             int v = 0;
             int longitud = digitos(valor);
             for (int i = longitud - 1; i>=longitud- pos; i--){
-                v = (int)(valor / (long)Math.pow(10, i));
-                valor = (valor % (long)Math.pow(10, i));
+                v = (int)(valor / (long)(Math.pow(10, i)));
+                valor = (valor % (long)(Math.pow(10, i)));
             }
 
             return v;
@@ -61,7 +61,7 @@ public class GraficaAsteristicos {
                     if (v>=fila)
                     System.out.print("*");
                     else 
-                    System.out.print("");
+                    System.out.print(" ");
                 }
                 System.out.println("");
             }
@@ -72,7 +72,7 @@ public class GraficaAsteristicos {
 
             long numero = solicitarNumero();
             System.out.println("Digitos de la cadena " + digitos(numero));
-            System.out.print("Maximos de la cadena " + maximo(numero));
+            System.out.println("Maximos de la cadena " + maximo(numero));
             grafica(numero);
             finalizar();
         }
