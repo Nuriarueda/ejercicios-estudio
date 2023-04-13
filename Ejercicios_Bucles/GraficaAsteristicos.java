@@ -19,5 +19,10 @@ public class GraficaAsteristicos {
             }
             return dig;
         }
+
+        public static void main (String[] args){
+            long numero = solicitarNumero();
+            System.out.print("Digitos de la cadena " + digitos(numero));
+        }
 }
 
