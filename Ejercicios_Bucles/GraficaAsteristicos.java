@@ -36,7 +36,7 @@ public class GraficaAsteristicos {
                if (v>max)
                   max = v;
             }
-                        return max;
+            return max;
 
         }
 
