@@ -42,13 +42,21 @@ public class GraficaAsteristicos {
 
         }
 
+        public static void grafica (long valor){
+            int longitud = digitos(valor);
+            int maximo = maximo(valor);
+            for (int fila = 1; fila<=maximo; fila++){
+                System.out.println("Fila " + fila);
+            }
+        }
+
         public static void main (String[] args){
             inicializar();
 
             long numero = solicitarNumero();
             System.out.println("Digitos de la cadena " + digitos(numero));
             System.out.print("Maximos de la cadena " + maximo(numero));
-
+            grafica(numero);
             finalizar();
         }
 }
