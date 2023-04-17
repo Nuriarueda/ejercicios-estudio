@@ -16,6 +16,8 @@ public class Aleatorios {
         System.out.print("Introduce un valor maximo: ");
         int max = sc.nextInt();
 
+        System.out.println();
+
         System.out.println("-A-L-E-A-T-O-R-I-U-M-");
         System.out.println();
 
@@ -35,6 +37,8 @@ public class Aleatorios {
             int intentos = (int)(Math.log(intervalomax-intervalomin+1) / Math.log(2)); // Calcular el numero de intentos 
             System.out.println("Tienes " + intentos + " intentos");
 
+            System.out.println();
+
             int numcorrecto = (int)(Math.random()*(intervalomax-intervalomin+1) + intervalomin);
 
             boolean acertado = false;
@@ -46,6 +50,7 @@ public class Aleatorios {
                     System.out.println("Enhorabuena, lo has conseguido");
                     acertado = true;
                     intentos = 0;
+                    System.out.println();
                     System.out.println("El numero que habia pensado era: " + numcorrecto);
                 } else if (numintroducido>numcorrecto){
                     System.out.println("Uy, te has pasado");
@@ -58,13 +63,14 @@ public class Aleatorios {
             } while (intentos>0);
 
             if (!acertado) {
+                System.out.println();
                 System.out.println("Has superado el número de intentos.");
-                System.out.println("El número que había pensado era: " + numcorrecto + " lo siento");
+                System.out.println("El número que había pensado era: " + numcorrecto );
     
             }
+            System.out.println();
 
             System.out.println("Elige una opción");
-            System.out.println();
             System.out.println("1. Volver a jugar.");
             System.out.println("2. Salir del juego.");
             System.out.print("Opcion: ");
