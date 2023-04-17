@@ -1,7 +1,7 @@
-package Ejercicios_Bucles;
+package Examenes;
 
 import java.util.Scanner;
-public class GraficaAsteristicos {
+public class Bucles2 {
     
         protected static Scanner sc;
         static void inicializar(){
