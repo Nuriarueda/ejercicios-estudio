@@ -1,6 +1,6 @@
 /* Haz un programa que multiplique el numero que te den por consola del 1-10 */
 
-package Ejercicios_Bucles;
+
 
 import java.util.Scanner;
 public class MultiplicaFor {
