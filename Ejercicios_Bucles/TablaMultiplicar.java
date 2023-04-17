@@ -1,7 +1,5 @@
 /*  Muestra la tabla de multiplicar de un número introducido por teclado. */
 
-package Ejercicios_Bucles;
-
 import java.util.Scanner;
 public class TablaMultiplicar {
     public static void main(String[] args) {
