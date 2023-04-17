@@ -17,10 +17,12 @@ public class NumRandom {
 
         System.out.println("-A-L-E-A-T-O-R-I-U-M-");
 
-        int minrandom = (int)(Math.random()*(max-min+1)+min);
-        int maxrandom = (int)(Math.random()*(min-max+1)+max);
+        int intervalomin = (int)(Math.random()*(max-min+1)+min);
+        int intervalomax = (int)(Math.random()*(min-max+1)+max);
 
-        System.out.println("Estoy pensando un numero entre " + minrandom + " y " + maxrandom);
+        System.out.println("Estoy pensando un numero entre " + intervalomin + " y " + intervalomax);
+
+
 
 
         sc.close();
