@@ -1,4 +1,3 @@
-package Ejercicios_Bucles;
 
 import java.util.Scanner;
 public class TrianguloNumeros {

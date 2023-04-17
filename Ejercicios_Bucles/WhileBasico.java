@@ -1,6 +1,5 @@
 /*Bucle While basico del 1-10*/
 
-package Ejercicios_Bucles;
 
 public class WhileBasico {
     public static void main(String[] args) {
