@@ -22,6 +22,13 @@ public class NumRandom {
 
         System.out.println("Estoy pensando un numero entre " + intervalomin + " y " + intervalomax);
 
+        if (intervalomax < intervalomin){
+            int aux = intervalomin;
+            intervalomin = intervalomax;
+            intervalomax = aux;
+
+        } 
+
 
 
 
