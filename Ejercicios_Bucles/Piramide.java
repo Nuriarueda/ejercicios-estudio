@@ -2,8 +2,6 @@
 pedir por teclado. El carácter con el que se pinta la pirámide también se debe
 pedir por teclado. */
 
-package Ejercicios_Bucles;
-
 import java.util.Scanner;
 public class Piramide {
     

@@ -1,6 +1,5 @@
 /* Escribe 10 numeros enteros y te dirá cuales son positivos y cuales son negativos */
 
-package Ejercicios_Bucles;
 
 import java.util.Scanner;
 public class PositivosNegativos {
