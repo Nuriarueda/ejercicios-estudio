@@ -1,7 +1,5 @@
 /* Muestra por pantalla todos los números primos entre 2 y 100, ambos incluidos. */
 
-package Ejercicios_Bucles;
-
 public class Primos{
     public static void main (String []args) {
         System.out.print("Números primos entre 2 y 100: ");
