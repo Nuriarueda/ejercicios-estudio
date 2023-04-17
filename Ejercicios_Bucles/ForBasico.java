@@ -1,6 +1,5 @@
 /* Bucle for basico del 1-10 */
 
-package Ejercicios_Bucles;
 
 public class ForBasico {
     public static void main(String[] args) {

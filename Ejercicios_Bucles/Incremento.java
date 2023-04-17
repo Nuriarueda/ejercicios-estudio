@@ -3,8 +3,6 @@ números introducidos por teclado y validados como distintos, el programa debe
 empezar por el menor de los enteros introducidos e ir incrementando de 7 en
 7. */
 
-package Ejercicios_Bucles;
-
 import java.util.Scanner;
 public class Incremento {
     
