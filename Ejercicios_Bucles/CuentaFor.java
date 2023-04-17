@@ -1,7 +1,5 @@
 /* Pide un numero y cuenta hasta el numero pedido por consola con un bucle FOR */
 
-package Ejercicios_Bucles;
-
 import java.util.Scanner;
 public class CuentaFor {
     
