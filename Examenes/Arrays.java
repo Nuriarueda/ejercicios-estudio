@@ -86,6 +86,20 @@ public class Arrays {
             posicion[1]++;
     }
 
+    public static void arriba(char[][] tablero, char modo, int[] posicion){
+
+        if (modo == 'P') {
+            tablero[posicion[1]][posicion[0]] = 'X';
+        } else if (modo == 'B') {
+            tablero[posicion[1]][posicion[0]] = ' ';
+        }
+        if (posicion[1] != 1)
+            posicion[1]--;
+    }
+
+
+    
+
 
 
 
