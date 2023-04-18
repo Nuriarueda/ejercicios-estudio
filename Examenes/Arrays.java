@@ -97,8 +97,30 @@ public class Arrays {
             posicion[1]--;
     }
 
+    public static char pintar(){
+        return 'P';
+    }
 
-    
+    public static char borrar(){
+        return 'B';
+    }
+
+    public static char mover(){
+        return 'M';
+    }
+
+    public static void copiaArray(char[][] destino, char[][]origen){
+        int longitud = destino.length;
+        int i = 0;
+        int j = 0;
+        for (i = 0; i < longitud; i++) {
+            for (j = 0; j < longitud; j++) {
+                destino[i][j] = origen[i][j];
+            }
+        }
+    }
+
+
 
 
 
