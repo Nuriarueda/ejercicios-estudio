@@ -152,7 +152,7 @@ public class Arrays {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         char array [][] = new char [11][11];
-        int[] posicion = new int[2]; // 0: coordenada posicion[0], 1: coordenada posicion[1]
+        int[] posicion = new int[2]; 
         posicion[0] = array.length/2;
         posicion[1] = array.length/2;
         char cabezal = 'M';
