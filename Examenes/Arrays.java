@@ -148,10 +148,56 @@ public class Arrays {
         copiaArray(tablero, arrayAux);
     }
 
-    
 
-
-
-
-
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        char array [][] = new char [11][11];
+        int[] posicion = new int[2]; // 0: coordenada posicion[0], 1: coordenada posicion[1]
+        posicion[0] = array.length/2;
+        posicion[1] = array.length/2;
+        char cabezal = 'M';
+        char opcion = 'x';
+        limpiarTablero(array);
+        do {
+            imprimirTablero(array, posicion, cabezal);
+            muestraMenu();
+            opcion = leerOpcion(sc);
+            switch (opcion) {
+                case 'a':
+                    izquierda(array, cabezal, posicion);
+                    break;
+                case 'd':
+                    derecha(array, cabezal, posicion);
+                    break;
+                case 's':
+                    abajo(array, cabezal, posicion);
+                    break;
+                case 'w':
+                    arriba(array, cabezal, posicion);
+                    break;
+                case 'p':
+                    cabezal = pintar();
+                    break;
+                    case 'b':
+                    cabezal = borrar();
+                    break;
+                case 'm':
+                    cabezal = mover();
+                    break;
+                case 'r':
+                    rotar(array);
+                    break;
+                case 'e':
+                    espejo(array);
+                    break;
+                case 'l':
+                    limpiarTablero(array);
+                    break;
+                case 'q':
+                    break;
+                default:
+            }   
+        } while (opcion != 'q');
+        sc.close();
+    }
 }
