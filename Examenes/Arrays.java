@@ -121,6 +121,35 @@ public class Arrays {
     }
 
 
+    public static void rotar(char[][] tablero){
+        int longitud = tablero.length;
+        int i = 0;
+        int j = 0;
+        char arrayAux [][] = new char [longitud][longitud];
+        for (i = 0; i < longitud; i++) {
+            for (j = 0; j < longitud; j++) {
+                arrayAux[longitud -j - 1][i] = tablero[i][j];
+            }
+        }
+        copiaArray(tablero, arrayAux);
+    }
+
+    public static void espejo(char[][] tablero){
+        int longitud = tablero.length;
+        int i = 0;
+        int j = 0;
+        char arrayAux [][] = new char [longitud][longitud];
+        for (i = 0; i < longitud; i++) {
+            for (j = 0; j < longitud; j++) {
+                arrayAux[i][j] = tablero[i][longitud-j-1];
+                
+            }
+        }
+        copiaArray(tablero, arrayAux);
+    }
+
+    
+
 
 
 
