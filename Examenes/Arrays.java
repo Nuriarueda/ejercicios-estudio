@@ -46,6 +46,11 @@ public class Arrays {
         System.out.println("q. Salir");
     }
 
+    public static char leerOpcion(Scanner sc){
+        return sc.next().charAt(0);
+    }
+
+
 
 
 }
