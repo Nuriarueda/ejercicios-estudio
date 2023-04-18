@@ -51,6 +51,20 @@ public class Arrays {
     }
 
 
+    public static void izquierda(char[][] tablero, char modo, int[] posicion){
+        if (modo == 'P') {
+            tablero[posicion[1]][posicion[0]] = 'X';
+        } else if (modo == 'B') {
+            tablero[posicion[1]][posicion[0]] = ' ';
+        }
+        if (posicion[0] != 1) {
+            posicion[0]--;
+        } 
+    }
+
+
+    
+
 
 
 }
