@@ -63,7 +63,17 @@ public class Arrays {
     }
 
 
-    
+    public static void derecha(char[][] tablero, char modo, int[] posicion){
+        int longitud = tablero.length;
+        if (modo == 'P') {
+            tablero[posicion[1]][posicion[0]] = 'X';
+        } else if (modo == 'B') {
+            tablero[posicion[1]][posicion[0]] = ' ';
+        }
+        if (posicion[0] != longitud - 2) 
+            posicion[0]++;
+    }
+
 
 
 
