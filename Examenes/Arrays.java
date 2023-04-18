@@ -32,5 +32,20 @@ public class Arrays {
         }
     }
 
+    public static void muestraMenu(){
+        System.out.println("a. Izquierda");
+        System.out.println("d. Derecha");
+        System.out.println("s. Abajo");
+        System.out.println("w. Arriba");
+        System.out.println("p. Pintar");
+        System.out.println("b. Borrar");
+        System.out.println("m. Mover");
+        System.out.println("r. Rotar sentido antihorario");
+        System.out.println("e. Espejo horizontal");
+        System.out.println("l. Limpiar tablero");
+        System.out.println("q. Salir");
+    }
+
+
 
 }
