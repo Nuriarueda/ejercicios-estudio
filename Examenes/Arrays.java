@@ -1,5 +1,6 @@
 package Examenes;
 
+import java.util.Scanner;
 public class Arrays {
     
     public static void limpiarTablero(char[][] tablero){
