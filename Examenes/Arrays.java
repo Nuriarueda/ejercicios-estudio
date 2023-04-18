@@ -14,7 +14,7 @@ public class Arrays {
         }
     }
 
-    public static void imprimirTablero(char[][] tablero, int[] posicion, char modo){
+    public static void imprimirTablero(char[][] tablero, int[] posicion, char modo){ //
         int i;
         int j;
         int longitud = tablero.length;
@@ -32,7 +32,7 @@ public class Arrays {
         }
     }
 
-    public static void muestraMenu(){
+    public static void muestraMenu(){ //
         System.out.println("a. Izquierda");
         System.out.println("d. Derecha");
         System.out.println("s. Abajo");
@@ -46,7 +46,7 @@ public class Arrays {
         System.out.println("q. Salir");
     }
 
-    public static char leerOpcion(Scanner sc){
+    public static char leerOpcion(Scanner sc){ //
         return sc.next().charAt(0);
     }
 
