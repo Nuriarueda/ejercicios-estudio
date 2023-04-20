@@ -16,16 +16,19 @@ public class Operaciones {
     public static int inc(int a){
         return suma(a, 1);
     }
-    
+
     public static boolean esMayor(int a, int b){
         return resta(a, b) >0;
     }
+
     public static boolean esMenor(int a, int b){
         return 0 > resta(a, b);
     }
+
     public static boolean esIgual(int a,int b){
         return !esMayor(a,b) && !esMenor(a, b);
     }
+
     public static int multiplica(int a, int b){
         if(esIgual(a, 0)||esIgual(b, 0))
             return 0;
@@ -40,6 +43,7 @@ public class Operaciones {
         }
         return ((esMenor(a,0)&&esMayor(b,0))||(esMenor(b, 0)&&esMayor(a, 0)))?-auxA:auxA;
     } 
+
     public static int divide(int a, int b)throws ArithmeticException{
         if(esIgual(b, 0))
             throw new ArithmeticException();
@@ -56,6 +60,7 @@ public class Operaciones {
         }
         return ((esMenor(a,0)&&esMayor(b,0))||(esMenor(b, 0)&&esMayor(a, 0)))?-cociente:cociente;
     }
+
     public static int resto(int a, int b)throws ArithmeticException{
         if(esIgual(b, 0))
             throw new ArithmeticException();
@@ -63,6 +68,7 @@ public class Operaciones {
         int resto = resta(a,multiplica(cociente, b));
         return resto;
     }
+
     public static int potencia(int a , int b){
         int resultado =1;
         for(int i = 0 ; esMenor(i, b);i= inc(i)){
@@ -70,12 +76,15 @@ public class Operaciones {
         }
         return resultado;
     } 
+
     public static int cuadrado(int a){
         return potencia(a, 2);
     }
+
     public static int cubo(int a){
         return potencia(a, 3);
     }
+
     public static boolean esMultiplo(int a , int b){
         if(esMayor(b, a)){
             return false;
@@ -85,9 +94,11 @@ public class Operaciones {
         }
         return false;
     }
+
     public static boolean esDivisor(int a ,int b){
         return esMultiplo(b, a);
     }
+
     public static boolean esPrimo(int a){
         if(esMenor(a, 2))
          return false;
@@ -100,6 +111,7 @@ public class Operaciones {
         }
         return true;
     }
+    
     public static boolean esCuadradoPerfecto(int a){
         if(esIgual(a, 1))
         return true;
