@@ -8,13 +8,15 @@ public class Operaciones {
     public static int resta(int a ,int b){
         return suma(a,-b);
     }
-    
+
     public static int dec(int a){
         return resta(a, 1);
     }
+
     public static int inc(int a){
         return suma(a, 1);
     }
+    
     public static boolean esMayor(int a, int b){
         return resta(a, b) >0;
     }
