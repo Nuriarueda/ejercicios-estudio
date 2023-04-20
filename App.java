@@ -1,3 +1,4 @@
+import Alumnado.Alumnos;
 import Lectura.Consola;
 public class App {
 
@@ -47,13 +48,31 @@ public class App {
                 case 1:
                     imprimirAlumnos(alumnos);
                     break;
-                case 2:
-
-
-
+                case 2: {
+                        Alumnos.anadirAlumno(alumnos);
+                    }
+                    break;
+                case 3:{
+                        System.out.print("Introduzca el indice del alumno a modificar ");
+                        int index = Integer.parseInt(Consola.sc.nextLine());
+                        Alumnos.modificarAlumno(alumnos, index-1);
+                    }
+                    break;
+                case 4: {
+                        System.out.println("Introduzca el indice del alumno a borrar ");
+                        int index = Integer.parseInt(Consola.sc.nextLine());
+                        Alumnos.borrarAlumnoporPosicion(alumnos, index-1);
+                    }
+                    break;
+                case 5:{
+                        salir = true;
+                    }
+                    break;
+                    default:
+                    System.out.println("Opcion no valida: ");
+                    break;
             }
         }while (!salir);
-
         Consola.finalizar();
     }
 }

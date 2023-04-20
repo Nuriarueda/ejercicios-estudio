@@ -22,8 +22,8 @@ public class Alumnos {
     }
 
 
-    public static int anadirAlumno(String[] alumnos, int cantidad) { //AÑADIR ALUMNOS
-        if (cantidad < alumnos.length){
+    public static int anadirAlumno(String[] alumnos) { //AÑADIR ALUMNOS
+        if (numAlumnos(alumnos) < alumnos.length){
             System.out.print("Introduzca el nombre del alumno: ");
             String nombre = Consola.sc.nextLine();
             int index;
@@ -59,7 +59,7 @@ public class Alumnos {
     }
 
 
-    public static String modificarAlumno (String[]alumnos, int cantidad, int index) {
+    public static String modificarAlumno (String[]alumnos, int index) {
         String nuevoNombre = null;
         if (index>=0 && index>alumnos.length && alumnos[index]!=null){
             System.out.print("Introduzca el nimbre del alumno: ");
