@@ -41,7 +41,7 @@ public class Alumnos {
         }
         return -1;
     }
-    
+
 
     public static int buscarAlumnos(String[] alumnos, String alumno){
         for (int i = 0; i < alumnos.length; i++){
@@ -53,7 +53,7 @@ public class Alumnos {
     
 
     public static int borrarAlumnoporNombre(String[] alumnos, String nombre){
-        int index = 1;
+        int index = buscarAlumnos(alumnos, nombre);
         return borrarAlumnoporPosicion(alumnos, index);
     }
 
