@@ -77,13 +77,16 @@ public class Operaciones {
         return resultado;
     } 
 
+    
     public static int cuadrado(int a){
         return potencia(a, 2);
     }
 
+
     public static int cubo(int a){
         return potencia(a, 3);
     }
+
 
     public static boolean esMultiplo(int a , int b){
         if(esMayor(b, a)){
@@ -95,9 +98,11 @@ public class Operaciones {
         return false;
     }
 
+
     public static boolean esDivisor(int a ,int b){
         return esMultiplo(b, a);
     }
+
 
     public static boolean esPrimo(int a){
         if(esMenor(a, 2))
@@ -111,7 +116,8 @@ public class Operaciones {
         }
         return true;
     }
-    
+
+
     public static boolean esCuadradoPerfecto(int a){
         if(esIgual(a, 1))
         return true;
