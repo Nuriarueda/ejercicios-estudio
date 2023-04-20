@@ -5,29 +5,36 @@ public class Operaciones {
         return a+b;
     }
 
+    
     public static int resta(int a ,int b){
         return suma(a,-b);
     }
+
 
     public static int dec(int a){
         return resta(a, 1);
     }
 
+
     public static int inc(int a){
         return suma(a, 1);
     }
+
 
     public static boolean esMayor(int a, int b){
         return resta(a, b) >0;
     }
 
+
     public static boolean esMenor(int a, int b){
         return 0 > resta(a, b);
     }
 
+
     public static boolean esIgual(int a,int b){
         return !esMayor(a,b) && !esMenor(a, b);
     }
+
 
     public static int multiplica(int a, int b){
         if(esIgual(a, 0)||esIgual(b, 0))
@@ -43,6 +50,7 @@ public class Operaciones {
         }
         return ((esMenor(a,0)&&esMayor(b,0))||(esMenor(b, 0)&&esMayor(a, 0)))?-auxA:auxA;
     } 
+
 
     public static int divide(int a, int b)throws ArithmeticException{
         if(esIgual(b, 0))
@@ -61,6 +69,7 @@ public class Operaciones {
         return ((esMenor(a,0)&&esMayor(b,0))||(esMenor(b, 0)&&esMayor(a, 0)))?-cociente:cociente;
     }
 
+
     public static int resto(int a, int b)throws ArithmeticException{
         if(esIgual(b, 0))
             throw new ArithmeticException();
@@ -68,6 +77,7 @@ public class Operaciones {
         int resto = resta(a,multiplica(cociente, b));
         return resto;
     }
+
 
     public static int potencia(int a , int b){
         int resultado =1;
@@ -77,7 +87,7 @@ public class Operaciones {
         return resultado;
     } 
 
-    
+
     public static int cuadrado(int a){
         return potencia(a, 2);
     }
