@@ -3,7 +3,7 @@ package Alumnado;
 import Lectura.Consola;
 public class Alumnos {
 
-    private static int numAlumnos(String[] alumnos){
+    private static int numAlumnos(String[] alumnos){ //NUMEROS DE ALUMNOS
         int cantidad = 0;
         for (int i = 0; i < alumnos.length; i++)
             if (alumnos[i]!=null)
@@ -11,7 +11,8 @@ public class Alumnos {
         return cantidad;
     }
     
-    public static int buscarHuecoenArray (Object[] array){
+
+    public static int buscarHuecoenArray (Object[] array){ //HUECOS DE LOS ALUMNOS
         for (int i=0; i<array.length; i++ ){
             if (array[i]==null){
                 return i;
@@ -21,7 +22,7 @@ public class Alumnos {
     }
 
 
-    public static int anadirAlumno(String[] alumnos, int cantidad) {
+    public static int anadirAlumno(String[] alumnos, int cantidad) { //AÑADIR ALUMNOS
         if (cantidad < alumnos.length){
             System.out.print("Introduzca el nombre del alumno: ");
             String nombre = Consola.sc.nextLine();
@@ -34,7 +35,7 @@ public class Alumnos {
     }
 
 
-    public static int borrarAlumnoporPosicion(String [] alumnos, int index) {
+    public static int borrarAlumnoporPosicion(String [] alumnos, int index) { //BORRAR LA POSICION DE LOS ALUMNOS
         if (index>=0 && index<alumnos.length && alumnos[index]!=null){
             alumnos[index]=null;
             return index;
@@ -43,7 +44,7 @@ public class Alumnos {
     }
 
 
-    public static int buscarAlumnos(String[] alumnos, String alumno){
+    public static int buscarAlumnos(String[] alumnos, String alumno){ //BUSCAR LOS ALUMNOS
         for (int i = 0; i < alumnos.length; i++){
             if (alumnos[i]!=null && alumnos[i].equals(alumno))
                 return i;
@@ -52,13 +53,16 @@ public class Alumnos {
     }
     
 
-    public static int borrarAlumnoporNombre(String[] alumnos, String nombre){
+    public static int borrarAlumnoporNombre(String[] alumnos, String nombre){ //BORRAR EL NOMBRE DE LOS ALUMNOS
         int index = buscarAlumnos(alumnos, nombre);
         return borrarAlumnoporPosicion(alumnos, index);
     }
 
 
     public static String modificarAlumno (String[]alumnos, int cantidad, int index) {
+        String nuevoNombre = null;
+        
+        return nuevoNombre;
 
     }
 }
