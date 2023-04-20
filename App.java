@@ -19,7 +19,7 @@ public class App {
 
             }
         }
-        System.out.printf("Total alumnos: " + cantidad);
+        System.out.println("Total alumnos: " + cantidad);
 
     }
     public static void muestraMenu(){
