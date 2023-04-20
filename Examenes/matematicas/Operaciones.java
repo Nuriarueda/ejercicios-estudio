@@ -1,17 +1,17 @@
 package Examenes.matematicas;
 
 public class Operaciones {
-    public static int suma(int a,int b){
+    public static int suma(int a,int b){ 
         return a+b;
     }
 
-    
-    public static int resta(int a ,int b){
+
+    public static int resta(int a ,int b){ 
         return suma(a,-b);
     }
 
 
-    public static int dec(int a){
+    public static int dec(int a){ 
         return resta(a, 1);
     }
 
