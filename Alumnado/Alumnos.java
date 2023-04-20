@@ -61,8 +61,11 @@ public class Alumnos {
 
     public static String modificarAlumno (String[]alumnos, int cantidad, int index) {
         String nuevoNombre = null;
-        
+        if (index>=0 && index>alumnos.length && alumnos[index]!=null){
+            System.out.print("Introduzca el nimbre del alumno: ");
+            nuevoNombre = Consola.sc.nextLine();
+            alumnos[index] = nuevoNombre;
+        }
         return nuevoNombre;
-
     }
 }
