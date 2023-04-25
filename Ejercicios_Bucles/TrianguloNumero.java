@@ -1,6 +1,6 @@
 
 import java.util.Scanner;
-public class TrianguloNumeros {
+public class TrianguloNumero {
     
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
