@@ -29,8 +29,9 @@ public class Ejercicio2 {
         return Integer.parseInt(sc.nextLine());
     }
 
-    public static void Anadir(){
-        System.out.print("Introduzca ");
+    public static void Listar(){
+        lista.keySet(dni)
+        System.out.println(lista.get(dni));
     }
 
     public static void Buscar(){
