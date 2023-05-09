@@ -29,6 +29,10 @@ public class Ejercicio2 {
         return Integer.parseInt(sc.nextLine());
     }
 
+    public static void Anadir(){
+        System.out.print("Introduzca ");
+    }
+
     public static void Buscar(){
         System.out.print("Introduzca DNI: ");
         String dni = sc.nextLine();
@@ -38,9 +42,5 @@ public class Ejercicio2 {
             System.out.println("No existe");
         }
     }
-
-
-
-
 
 }
