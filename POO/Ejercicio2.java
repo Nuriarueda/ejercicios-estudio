@@ -29,9 +29,8 @@ public class Ejercicio2 {
         return Integer.parseInt(sc.nextLine());
     }
 
-    public static void Listar(){
-        lista.keySet(dni)
-        System.out.println(lista.get(dni));
+    public static void Anadir(){
+        
     }
 
     public static void Buscar(){
@@ -42,6 +41,11 @@ public class Ejercicio2 {
         } else {
             System.out.println("No existe");
         }
+    }
+
+    public static void Listar(){
+        lista.keySet(dni)
+        System.out.println(lista.get(dni));
     }
 
 }
