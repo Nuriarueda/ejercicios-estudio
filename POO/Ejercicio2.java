@@ -1,5 +1,7 @@
 package POO;
 
+import java.util.Scanner;
+
 public class Ejercicio2 {
 
     public static Scanner sc;
@@ -25,6 +27,16 @@ public class Ejercicio2 {
 
     public static int LeeOpcion(){
         return Integer.parseInt(sc.nextLine());
+    }
+
+    public static void Buscar(){
+        System.out.print("Introduzca DNI: ");
+        String dni = sc.nextLine();
+        if (lista.containsKey(dni)){
+            System.out.println(lista.get(dni));
+        } else {
+            System.out.println("No existe");
+        }
     }
 
 
