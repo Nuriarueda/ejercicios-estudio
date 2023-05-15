@@ -36,6 +36,9 @@ public class Ejercicio1 {
     public static void listarCarpeta(){
         File f = new File(".")
         System.out.println("**** CONTENIDO DE LA CARPETA ****");
+        mostrarRutaActual();
+        String[] listarArchivo = f.list();
+        for (String nombreArchivo : listarArchivos)
         
     }
     
@@ -63,7 +66,7 @@ public class Ejercicio1 {
         System.out.println("Introduzca el nombre del archivo a renombrar: ");
         String orig = sc.nextLine();
         File fdest = new File (dest);
-        
+
     }
     
 
